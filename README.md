@@ -6,5 +6,8 @@
 - How to use
     - `mvn clean package -DskipTests` (Build ysoserial with my probe payload)
     - `python auto.py wlsserver.com 7001 black.list mydnslog.tw`
+        - python auto.py [TARGET_HOST] [TARGET_PORT] [WORDLIST_PATH] [DNSLOG_SERVER]
+
+---
 
 ![](https://github.com/w181496/weblogic-gadget-probe/blob/master/demo.png)
